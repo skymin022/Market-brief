@@ -31,9 +31,10 @@ FEEDS_KR = [
 # --- 미국 증권 뉴스 피드 (CNBC 공개 무료 RSS) ---
 # ⚠ 첫 실행 로그에서 [ok]/[warn] 확인하고, 막히는 건 교체하세요.
 FEEDS_US = [
-    "https://www.cnbc.com/id/100003114/device/rss/rss.html",  # Top News
-    "https://www.cnbc.com/id/15839069/device/rss/rss.html",   # Investing
-    "https://www.cnbc.com/id/15838459/device/rss/rss.html",   # Markets
+    "https://www.cnbc.com/id/100003114/device/rss/rss.html",  # Top News (확인됨)
+    "https://www.cnbc.com/id/20409666/device/rss/rss.html",   # Market Insider
+    "https://www.cnbc.com/id/15839135/device/rss/rss.html",   # Earnings(실적, 종목명 풍부)
+    "https://feeds.finance.yahoo.com/rss/2.0/headline?s=AAPL,NVDA,MSFT,TSLA,AMZN,GOOGL,META,AVGO,AMD,NFLX,PLTR,ORCL&region=US&lang=en-US",  # Yahoo 티커 뉴스
 ]
 
 # 셀 종목 목록: (표시이름, [헤드라인에서 찾을 표현들])
